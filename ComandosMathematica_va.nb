@@ -1,0 +1,1275 @@
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[         0,          0]
+NotebookDataLength[     42167,       1274]
+NotebookOptionsPosition[     39413,       1228]
+NotebookOutlinePosition[     39950,       1247]
+CellTagsIndexPosition[     39907,       1244]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ StyleBox[
+  RowBox[{"DEFINICI\[CapitalOAcute]N", " ", "DE", " ", "FUNCIONES"}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{{3.782455247510456*^9, 3.782455255307551*^9}, {
+  3.7824579898175583`*^9, 3.7824580032000837`*^9}, {3.782458123607444*^9, 
+  3.7824581275100107`*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"e7bfa098-240b-42d8-8917-e30ffbc810f8"],
+
+Cell[BoxData[
+ RowBox[{"   ", 
+  RowBox[{
+   RowBox[{"f", "[", "x_", "]"}], ":=", 
+   StyleBox["expr",
+    FontSlant->"Italic"]}]}]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[0, 0.67, 0],
+ CellChangeTimes->{{3.782457154083766*^9, 3.782457197271941*^9}, {
+  3.782457824148875*^9, 3.782457913762251*^9}, {3.782458011942663*^9, 
+  3.782458015586157*^9}},ExpressionUUID->"ac80bab9-e60a-4bde-a22c-\
+9bd73f7d55e0"],
+
+Cell[BoxData[{
+ StyleBox[
+  RowBox[{
+   StyleBox[
+    RowBox[{
+    "Si", " ", "la", " ", "funci\[OAcute]n", " ", "viene", " ", "definida", "  ",
+      "a", " ", "trozos", " ", "utilizaremos", " ", "las", " ", "siguientes", 
+     " ", "instrucciones"}],
+    FontColor->RGBColor[1, 0, 0]], "\n"}],
+  FontFamily->"Arial Bold",
+  FontSize->14,
+  FontWeight->"Plain"], "\n", 
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      StyleBox["Piecewise",
+       FontFamily->"Times New Roman"], 
+      StyleBox["[",
+       FontFamily->"Times New Roman"], 
+      StyleBox[
+       RowBox[{
+        StyleBox["{",
+         FontFamily->"Times New Roman",
+         FontWeight->"Plain"], 
+        RowBox[{
+         RowBox[{
+          StyleBox["{",
+           FontFamily->"Times New Roman",
+           FontWeight->"Plain"], 
+          RowBox[{
+           SubscriptBox[
+            StyleBox["val", "TI"], 
+            StyleBox["1", "TR"]], ",", 
+           SubscriptBox[
+            StyleBox["cond", "TI"], 
+            StyleBox["1", "TR"]]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           SubscriptBox[
+            StyleBox["val", "TI"], 
+            StyleBox["2", "TR"]], ",", 
+           SubscriptBox[
+            StyleBox["cond", "TI"], 
+            StyleBox["2", "TR"]]}], "}"}], ",", 
+         StyleBox["\[Ellipsis]", "TR"]}], "}"}],
+       FontFamily->"Arial Bold"], 
+      StyleBox["]",
+       FontFamily->"Arial Bold"]}], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox[
+      RowBox[{
+       StyleBox["representa",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox[" ",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox["una",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox[" ",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox["funci\[OAcute]n",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox[" ",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox["a",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox[" ",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox["trozos",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox[" ",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox["que",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox[" ",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox["toma",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox["  ",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox["el",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox[" ",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox["valor",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox["  ",
+        FontFamily->"Times New Roman",
+        FontWeight->"Plain"], 
+       StyleBox[
+        SubscriptBox[
+         StyleBox["val", "TI"], 
+         StyleBox["i", "TR"]],
+        FontFamily->"Arial Bold"]}],
+      FontColor->RGBColor[
+       0.02124055848020142, 0.02124055848020142, 0.02124055848020142]]}], 
+    StyleBox[",",
+     FontFamily->"Arial Bold",
+     FontColor->RGBColor[
+      0.02124055848020142, 0.02124055848020142, 0.02124055848020142]], 
+    StyleBox[" ",
+     FontFamily->"Arial Bold",
+     FontColor->RGBColor[
+      0.02124055848020142, 0.02124055848020142, 0.02124055848020142]], 
+    StyleBox[
+     RowBox[{
+      StyleBox["en",
+       FontFamily->"Times New Roman",
+       FontWeight->"Plain"], 
+      StyleBox[" ",
+       FontFamily->"Times New Roman",
+       FontWeight->"Plain"], 
+      StyleBox["la",
+       FontFamily->"Times New Roman",
+       FontWeight->"Plain"], 
+      StyleBox[" ",
+       FontFamily->"Times New Roman",
+       FontWeight->"Plain"], 
+      StyleBox["regi\[OAcute]n",
+       FontFamily->"Times New Roman",
+       FontWeight->"Plain"], 
+      StyleBox[" ",
+       FontFamily->"Times New Roman",
+       FontWeight->"Plain"], 
+      StyleBox["definida",
+       FontFamily->"Times New Roman",
+       FontWeight->"Plain"], 
+      StyleBox[" ",
+       FontFamily->"Times New Roman",
+       FontWeight->"Plain"], 
+      StyleBox["por",
+       FontFamily->"Times New Roman",
+       FontWeight->"Plain"], 
+      StyleBox[" ",
+       FontFamily->"Times New Roman",
+       FontWeight->"Plain"], 
+      SubscriptBox[
+       StyleBox["cond", "TI"], "i"]}],
+     FontFamily->"Arial Bold",
+     FontColor->RGBColor[
+      0.02124055848020142, 0.02124055848020142, 0.02124055848020142]]}], 
+   StyleBox["\n",
+    FontFamily->"Arial Bold"]}],
+  FontSize->14,
+  FontWeight->"Plain"], "\n", 
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     StyleBox["Piecewise",
+      FontFamily->"Times New Roman"], 
+     StyleBox["[",
+      FontFamily->"Times New Roman"], 
+     StyleBox[
+      RowBox[{
+       RowBox[{
+        StyleBox["{",
+         FontFamily->"Times New Roman",
+         FontWeight->"Plain"], 
+        RowBox[{
+         RowBox[{
+          StyleBox["{",
+           FontFamily->"Times New Roman",
+           FontWeight->"Plain"], 
+          RowBox[{
+           SubscriptBox[
+            StyleBox["val", "TI"], 
+            StyleBox["1", "TR"]], ",", 
+           SubscriptBox[
+            StyleBox["cond", "TI"], 
+            StyleBox["1", "TR"]]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           SubscriptBox[
+            StyleBox["val", "TI"], 
+            StyleBox["2", "TR"]], ",", 
+           SubscriptBox[
+            StyleBox["cond", "TI"], 
+            StyleBox["2", "TR"]]}], "}"}], ",", 
+         StyleBox["\[Ellipsis]", "TR"]}], "}"}], ",", " ", 
+       StyleBox["val", "TI"]}],
+      FontFamily->"Arial Bold"], 
+     StyleBox["]",
+      FontFamily->"Arial Bold"]}], 
+    StyleBox[" ",
+     FontFamily->"Times New Roman"], 
+    StyleBox["representa",
+     FontFamily->"Times New Roman"], 
+    StyleBox[" ",
+     FontFamily->"Times New Roman"], 
+    StyleBox["una",
+     FontFamily->"Times New Roman"], 
+    StyleBox[" ",
+     FontFamily->"Times New Roman"], 
+    StyleBox["funci\[OAcute]n",
+     FontFamily->"Times New Roman"], 
+    StyleBox[" ",
+     FontFamily->"Times New Roman"], 
+    StyleBox["a",
+     FontFamily->"Times New Roman"], 
+    StyleBox[" ",
+     FontFamily->"Times New Roman"], 
+    StyleBox["trozos",
+     FontFamily->"Times New Roman"], 
+    StyleBox[" ",
+     FontFamily->"Times New Roman"], 
+    StyleBox["que",
+     FontFamily->"Times New Roman"], 
+    StyleBox[" ",
+     FontFamily->"Times New Roman"], 
+    StyleBox["toma",
+     FontFamily->"Times New Roman"], 
+    StyleBox["  ",
+     FontFamily->"Times New Roman"], 
+    StyleBox["el",
+     FontFamily->"Times New Roman"], 
+    StyleBox[" ",
+     FontFamily->"Times New Roman"], 
+    StyleBox["valor",
+     FontFamily->"Times New Roman"], 
+    StyleBox["  ",
+     FontFamily->"Times New Roman"], 
+    StyleBox[
+     SubscriptBox[
+      StyleBox["val", "TI"], 
+      StyleBox["i", "TR"]],
+     FontFamily->"Arial Bold"]}], 
+   StyleBox[",",
+    FontFamily->"Arial Bold"], 
+   RowBox[{
+    RowBox[{
+     StyleBox["en",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["la",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["regi\[OAcute]n",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["definida",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["por",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox[
+      SubscriptBox[
+       StyleBox["cond", "TI"], "i"],
+      FontFamily->"Arial Bold"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["y",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["val",
+      FontFamily->"Times New Roman",
+      FontSlant->"Italic"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["en",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["el",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["resto",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["de",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["los",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox[
+      RowBox[{"casos", ".", " ", "Por"}],
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["defecto",
+      FontFamily->"Times New Roman"], 
+     StyleBox[" ",
+      FontFamily->"Times New Roman"], 
+     StyleBox["val",
+      FontFamily->"Times New Roman",
+      FontSlant->"Italic"]}], 
+    StyleBox["=",
+     FontFamily->"Times New Roman"], 
+    StyleBox["0",
+     FontFamily->"Times New Roman"]}]}],
+  FontSize->14,
+  FontWeight->"Plain"]}], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[0, 0.67, 0],
+ CellChangeTimes->{{3.782458212562374*^9, 
+  3.7824582125639887`*^9}},ExpressionUUID->"31346307-7321-4625-9519-\
+54862776afc5"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{"REPRESENTACI\[CapitalOAcute]N", " ", "DE", " ", "FUNCIONES"}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{{3.782455247510456*^9, 3.782455255307551*^9}, {
+  3.7824579898175583`*^9, 3.7824580032000837`*^9}, {3.782458123607444*^9, 
+  3.7824581275100107`*^9}, {3.782458250631803*^9, 3.782458254379793*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"010fe51d-49cd-4439-ba9a-323cad17fe33"],
+
+Cell[BoxData[{
+ StyleBox[
+  RowBox[{
+   StyleBox[
+    RowBox[{
+    "Se", " ", "utilizan", " ", "las", " ", "siguientes", " ", 
+     "instrucciones"}],
+    FontFamily->"Arial Bold",
+    FontColor->RGBColor[0.5, 0, 0.5]], 
+   StyleBox["\[IndentingNewLine]",
+    FontFamily->"Arial"]}],
+  FontSize->14,
+  FontWeight->"Plain"], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox[Cell[TextData[{
+    Cell[BoxData[
+     RowBox[{
+      ButtonBox["Plot",
+       BaseStyle->"Link",
+       ButtonData->"paclet:ref/Plot"], "[", 
+      RowBox[{
+       StyleBox["f", "TI"], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         StyleBox["x", "TI"], ",", 
+         SubscriptBox[
+          StyleBox["x", "TI"], 
+          StyleBox["min", "TI"]], ",", 
+         SubscriptBox[
+          StyleBox["x", "TI"], 
+          StyleBox["max", "TI"]]}], "}"}]}], "]"}]], "InlineFormula",
+     ExpressionUUID->"bade8a1d-50fc-4824-9316-a9fcd5aee164"],
+    " ",
+    StyleBox["representa la funci\[OAcute]n ",
+     FontSize->14],
+    Cell[BoxData[
+     StyleBox["f", "TI"]], "InlineFormula",
+     FontFamily->"Arial",
+     FontSize->14,ExpressionUUID->"a6ef0bc0-0161-4ca5-b35c-011a731f7755"],
+    StyleBox[" como funci\[OAcute]n de  ",
+     FontSize->14],
+    Cell[BoxData[
+     StyleBox["x", "TI"]], "InlineFormula",
+     FontFamily->"Arial",
+     FontSize->14,ExpressionUUID->"a2bc1e8b-9a77-4bf9-91fa-69f9044fad44"],
+    StyleBox[" desde ",
+     FontSize->14],
+    Cell[BoxData[
+     SubscriptBox[
+      StyleBox["x", "TI"], 
+      StyleBox["min", "TI"]]], "InlineFormula",
+     FontFamily->"Arial",
+     FontSize->14,ExpressionUUID->"48c7b923-7e37-4ace-94fd-d1f6662beadf"],
+    StyleBox[" a ",
+     FontSize->14],
+    Cell[BoxData[
+     SubscriptBox[
+      StyleBox["x", "TI"], 
+      StyleBox["max", "TI"]]], "InlineFormula",
+     FontFamily->"Arial",
+     FontSize->14,ExpressionUUID->"a629c5c8-0ade-4a95-b8ff-843816ede54a"],
+    StyleBox[". ",
+     FontFamily->"Times New Roman"]
+   }],ExpressionUUID->"18c9851e-0f5e-4581-91eb-63733429faf7"],
+   FontFamily->"Arial",
+   FontSize->16,
+   FontWeight->"Plain"], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ StyleBox[Cell[TextData[{
+   Cell[BoxData[
+    RowBox[{
+     ButtonBox["Plot",
+      BaseStyle->"Link",
+      ButtonData->"paclet:ref/Plot"], "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        SubscriptBox[
+         StyleBox["f", "TI"], 
+         StyleBox["1", "TR"]], ",", 
+        SubscriptBox[
+         StyleBox["f", "TI"], 
+         StyleBox["2", "TR"]], ",", 
+        StyleBox["\[Ellipsis]", "TR"]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        StyleBox["x", "TI"], ",", 
+        SubscriptBox[
+         StyleBox["x", "TI"], 
+         StyleBox["min", "TI"]], ",", 
+        SubscriptBox[
+         StyleBox["x", "TI"], 
+         StyleBox["max", "TI"]]}], "}"}]}], "]"}]], "InlineFormula",
+    ExpressionUUID->"f06ba4e2-7739-4359-a247-1846ae6f48ff"],
+   " ",
+   StyleBox["representa varias funciones ",
+    FontFamily->"Arial",
+    FontSize->14],
+   Cell[BoxData[
+    SubscriptBox[
+     StyleBox["f", "TI"], 
+     StyleBox["i", "TI"]]], "InlineFormula",ExpressionUUID->
+    "58518bce-6c0a-4667-a118-7053f8b91187"],
+   ". "
+  }],
+   FontFamily->"Times New Roman",
+   FontSize->16,
+   FontWeight->"Plain",ExpressionUUID->"aa29924b-7487-463a-8042-5925401e7535"],
+  FontFamily->"Arial",
+  FontSize->14,
+  FontWeight->"Plain"]}], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[0, 0.67, 0],
+ CellChangeTimes->{
+  3.814853199741124*^9},ExpressionUUID->"625f4b27-d723-4a18-8a4f-\
+113e9d199d3c"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{
+  "OPCIONES", " ", "UTILIZADAS", "  ", "EN", " ", "LAS", " ", 
+   "REPRESENTACIONES", " ", "GR\[CapitalAAcute]FICAS"}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{
+  3.814854028372188*^9, 3.814854063426385*^9, {3.814854419387712*^9, 
+   3.8148545297747793`*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"0d30824d-2b02-402e-92da-7d032cf9faa3"],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox["\[IndentingNewLine]",
+   FontFamily->"Arial Black",
+   FontSize->14,
+   FontWeight->"Plain"], 
+  RowBox[{
+   StyleBox[
+    RowBox[{
+    "Axes", "  ", "si", " ", "se", " ", "desea", " ", "incluir", " ", "los", 
+     " ", "ejes", " ", "de", " ", "coordenadas"}],
+    FontFamily->"Arial",
+    FontSize->14,
+    FontWeight->"Plain"], "\n", 
+   StyleBox[
+    RowBox[{
+     RowBox[{
+     "AxesLabel", "  ", "etiquetas", " ", "para", " ", "colocarles", " ", "a",
+       " ", "los", " ", "ejes", " ", "de", " ", "coordenadas"}], ";", 
+     "        ", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"xlabel", ",", "None"}], "}"}], "especifica", " ", "una", " ", 
+      "etiqueta", " ", "para", " ", "el", " ", "eje", " ", "x"}], ";"}],
+    FontFamily->"Arial",
+    FontSize->14,
+    FontWeight->"Plain"], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"xlabel", ",", "ylabel"}], "}"}], " ", "especifica", " ", "una",
+      " ", "etiqueta", " ", "para", " ", "ambos", " ", "ejes"}],
+    FontFamily->"Arial",
+    FontSize->14,
+    FontWeight->"Plain"], "\n", 
+   StyleBox[
+    RowBox[{
+    "AxesOrigin", "    ", "el", " ", "punto", " ", "en", " ", "el", " ", 
+     "que", " ", "se", " ", "interceptan", " ", "los", " ", "ejes"}],
+    FontFamily->"Arial",
+    FontSize->14,
+    FontWeight->"Plain"], "\n", 
+   StyleBox[
+    RowBox[{
+    "PlotStyle", "  ", "el", " ", "estilo", "  ", "a", " ", "usar", " ", 
+     "para", "  ", "el", " ", "gr\[AAcute]fico"}],
+    FontFamily->"Arial",
+    FontSize->14,
+    FontWeight->"Plain"], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{
+    "PlotLabel", " ", "una", " ", "expresi\[OAcute]n", " ", "que", " ", "se", 
+     " ", "imprimir\[AAcute]", " ", "como", " ", "etiqueta", " ", "para", " ",
+      "el", " ", "gr\[AAcute]fico"}],
+    FontFamily->"Arial",
+    FontSize->14,
+    FontWeight->"Plain"], "\n", 
+   StyleBox[
+    RowBox[{
+     RowBox[{
+     "PlotRange", "   ", "el", " ", "rango", " ", "de", " ", "las", " ", 
+      "coordenadas", " ", "a", " ", "incluir", " ", "en", " ", "el", " ", 
+      "gr\[AAcute]fico"}], ";", 
+     RowBox[{
+     "All", " ", "incluye", " ", "todos", " ", "los", " ", "puntos"}]}],
+    FontFamily->"Arial",
+    FontSize->14,
+    FontWeight->"Plain"], "\n", 
+   StyleBox[
+    RowBox[{
+    "Ticks", " ", "indica", " ", "qu\[EAcute]", " ", "marcas", " ", "dibujar",
+      " ", "en", " ", "los", "   ", 
+     RowBox[{"ejes", "."}]}],
+    FontFamily->"Arial",
+    FontSize->14,
+    FontWeight->"Plain"]}]}]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[0, 0.67, 0],
+ CellChangeTimes->{{3.782456107805081*^9, 3.782456229393998*^9}, {
+   3.782456451222906*^9, 3.782456452445984*^9}, {3.7824566304838123`*^9, 
+   3.7824566316989527`*^9}, {3.7824569784843683`*^9, 3.782456981532034*^9}, {
+   3.782457032620542*^9, 3.782457089883548*^9}, {3.78245852055986*^9, 
+   3.782458596397725*^9}, {3.782458676174242*^9, 3.7824586826955214`*^9}, {
+   3.782460146820531*^9, 3.782460147355464*^9}, {3.782460307304781*^9, 
+   3.782460310895105*^9}, {3.7825483484538307`*^9, 3.782548356357368*^9}, {
+   3.7882432775237217`*^9, 3.78824327966501*^9}, 
+   3.814854022556183*^9},ExpressionUUID->"e62e3fd3-7813-4bc6-b450-\
+3f3557ea6e85"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{"C\[CapitalAAcute]LCULO", " ", "DE", " ", "L\[CapitalIAcute]MITES"}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{{3.7824587326267357`*^9, 3.782458747778407*^9}, 
+   3.814853140718027*^9},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"da76ed23-54cc-4b28-b424-505c73e5a329"],
+
+Cell[BoxData[{
+ StyleBox[
+  RowBox[{
+   RowBox[{
+   "Para", " ", "calcular", " ", "el", " ", "l\[IAcute]mite", " ", 
+    "utilizaremos", " ", "la", " ", 
+    RowBox[{
+    "instrucci\[OAcute]n", ":", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     GridBox[{
+       {"", Cell[TextData[{
+         Cell[BoxData[
+          RowBox[{
+           ButtonBox["Limit",
+            BaseStyle->"Link",
+            ButtonData->"paclet:ref/Limit"], "[", 
+           RowBox[{
+            StyleBox["expr", "TI"], ",", 
+            RowBox[{
+             StyleBox["x", "TI"], "->", 
+             SubscriptBox[
+              StyleBox["x", "TI"], 
+              StyleBox["0", "TR"]]}]}], "]"}]], "InlineFormula",
+          ExpressionUUID->"9e9f49be-c5b9-4ee9-83e9-781a3cae846e"],
+         "\[LineSeparator]calcula el l\[IAcute]mite de ",
+         Cell[BoxData[
+          StyleBox["expr", "TI"]], "InlineFormula",ExpressionUUID->
+          "076998ef-a1f7-4529-b779-42b6c773d0a3"],
+         " cuando ",
+         Cell[BoxData[
+          StyleBox["x", "TI"]], "InlineFormula",ExpressionUUID->
+          "b1ff698a-289c-4f92-9ce3-841a42333df3"],
+         " se aproxima a  ",
+         Cell[BoxData[
+          SubscriptBox[
+           StyleBox["x", "TI"], 
+           StyleBox["0", "TR"]]], "InlineFormula",ExpressionUUID->
+          "bc2b1dc8-ad1f-45d2-9211-ac9f303736e3"],
+         ". "
+        }],ExpressionUUID->"ca30f2f4-7a81-41e5-ade0-f0ff2db5ae6c"]}
+      }]}]}], "\[IndentingNewLine]"}],
+  FontFamily->"Arial",
+  FontSize->16,
+  FontWeight->"Plain"], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   StyleBox["Para",
+    FontFamily->"Times New Roman"], 
+   StyleBox[" ",
+    FontFamily->"Times New Roman"], 
+   StyleBox["indicarle",
+    FontFamily->"Times New Roman"], 
+   StyleBox[" ",
+    FontFamily->"Times New Roman"], 
+   StyleBox["que",
+    FontFamily->"Times New Roman"], 
+   StyleBox[" ",
+    FontFamily->"Times New Roman"], 
+   StyleBox["es",
+    FontFamily->"Times New Roman"], 
+   StyleBox[" ",
+    FontFamily->"Times New Roman"], 
+   StyleBox["un",
+    FontFamily->"Times New Roman"], 
+   StyleBox[" ",
+    FontFamily->"Times New Roman"], 
+   StyleBox["l\[IAcute]mite",
+    FontFamily->"Times New Roman"], 
+   StyleBox[" ",
+    FontFamily->"Times New Roman"], 
+   StyleBox["lateral",
+    FontFamily->"Times New Roman"], 
+   StyleBox["  ",
+    FontFamily->"Times New Roman"], 
+   StyleBox["utilizaremos",
+    FontFamily->"Times New Roman"], 
+   StyleBox[" ",
+    FontFamily->"Times New Roman"], 
+   StyleBox["la",
+    FontFamily->"Times New Roman"], 
+   StyleBox[" ",
+    FontFamily->"Times New Roman"], 
+   StyleBox["instrucci\[OAcute]n",
+    FontFamily->"Times New Roman"], 
+   StyleBox[" ",
+    FontFamily->"Times New Roman"], 
+   StyleBox["Direction",
+    FontFamily->"Arial"], 
+   StyleBox[Cell[TextData[{
+     " Si el l\[IAcute]mite es a la derecha (",
+     StyleBox["Direction\[Rule] -1",
+      FontFamily->"Courier"],
+     ") o a la izquierda(",
+     StyleBox["Direction\[Rule]1",
+      FontFamily->"Courier"],
+     ")\[LineSeparator]"
+    }],ExpressionUUID->"6c8fab6c-a928-47a9-8304-a19dc9903f8a"],
+    FontFamily->"Times New Roman"]}],
+  FontSize->16,
+  FontWeight->"Plain"]}], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[0, 0.67, 0],
+ CellChangeTimes->{{3.782458759582674*^9, 3.782458769092434*^9}, 
+   3.783063945271311*^9, {3.783063997755669*^9, 
+   3.783063999474328*^9}},ExpressionUUID->"e98120bd-2a4c-43ba-8dc7-\
+64da97398114"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{"C\[CapitalAAcute]LCULO", " ", "DE", "  ", "DERIVADAS", " "}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{{3.783063896161833*^9, 3.783063910307496*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"068f8811-9bae-4c98-968d-42bffd97e45c"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{
+   RowBox[{
+   "Para", " ", "derivar", " ", "una", " ", "funci\[OAcute]n", " ", "F", " ", 
+    "podemos", " ", "utilizar", " ", "su", "  ", "s\[IAcute]mbolo", " ", 
+    RowBox[{"F", "'"}], " ", "o", " ", "bien", " ", "se", " ", "lo", " ", 
+    "indicaremos", " ", "con", " ", "la", " ", "instrucci\[OAcute]n", " ", 
+    RowBox[{"D", "[", 
+     RowBox[{
+      RowBox[{"F", "[", "x", "]"}], ",", "x"}], "]"}]}], 
+   "\[IndentingNewLine]"}],
+  FontFamily->"Arial",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[
+  0, 0.67, 0],ExpressionUUID->"e651fc53-3cd7-46eb-a80f-42fa5d7da0bf"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{"C\[CapitalAAcute]LCULO", " ", "DE", " ", "INTEGRALES"}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{{3.783063951358302*^9, 3.783063954793784*^9}, {
+  3.814853157725193*^9, 3.8148531598206453`*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"87e532ed-3423-483b-816c-758c8c15c953"],
+
+Cell[BoxData[{
+ StyleBox[
+  RowBox[{
+   RowBox[{
+   "Para", " ", "integrar", " ", "utilizaremos", " ", "la", " ", 
+    "instrucci\[OAcute]n"}], "\n"}],
+  FontFamily->"Arial",
+  FontSize->14,
+  FontWeight->"Plain"], "\n", 
+ StyleBox[
+  RowBox[{Cell[TextData[{
+    Cell[BoxData[
+     RowBox[{
+      ButtonBox["Integrate",
+       BaseStyle->"Link",
+       ButtonData->"paclet:ref/Integrate"], "[", 
+      RowBox[{
+       StyleBox["f", "TI"], ",", 
+       StyleBox["x", "TI"]}], "]"}]], "InlineFormula",ExpressionUUID->
+     "7dfcb3f2-ae4e-4523-ad5d-d484e70b3571"],
+    " calcula   ",
+    Cell[BoxData[
+     FormBox[
+      RowBox[{"\[Integral]", "f", " ", "d", "x"}], TraditionalForm]], 
+     "InlineMath",ExpressionUUID->"78ae4dcb-1500-4393-b281-75d9125e9fd2"],
+    ". "
+   }],ExpressionUUID->"a8411cea-a595-43cb-b259-3f2fe1267807"], Cell[
+   TextData[{
+    Cell[BoxData[
+     RowBox[{
+      ButtonBox["Integrate",
+       BaseStyle->"Link",
+       ButtonData->"paclet:ref/Integrate"], "[", 
+      RowBox[{
+       StyleBox["f", "TI"], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         StyleBox["x", "TI"], ",", 
+         SubscriptBox[
+          StyleBox["x", "TI"], 
+          StyleBox["min", "TI"]], ",", 
+         SubscriptBox[
+          StyleBox["x", "TI"], 
+          StyleBox["max", "TI"]]}], "}"}]}], "]"}]], "InlineFormula",
+     ExpressionUUID->"c42b3bf7-8096-457a-a400-bbb5a63f9363"],
+    " calcula la integral definida ",
+    Cell[BoxData[
+     FormBox[
+      RowBox[{
+       SubsuperscriptBox["\[Integral]", 
+        SubscriptBox["x", 
+         StyleBox["min", "TI"]], 
+        SubscriptBox["x", 
+         StyleBox["max", "TI"]]], " ", "f", " ", "d", "x"}], 
+      TraditionalForm]], "InlineMath",ExpressionUUID->
+     "abf8449e-732c-40cb-93a7-7fa2dd4630cf"],
+    ". "
+   }],ExpressionUUID->"741e14b9-6d03-4595-9227-fa606530cb2e"]}],
+  FontFamily->"Arial",
+  FontSize->14,
+  FontWeight->"Plain"]}], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[
+  0, 0.67, 0],ExpressionUUID->"ccc777f0-39d6-4223-b081-5fce8be8ecbd"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{"RESOLUCI\[CapitalOAcute]N", " ", "DE", " ", "ECUACIONES"}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{{3.7824587246038303`*^9, 3.7824587258747187`*^9}, {
+   3.7824588122103577`*^9, 3.782458819280897*^9}, 3.782458965031692*^9},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"2198d3e0-58e7-4f83-b8c3-565dff58740c"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   StyleBox[
+    RowBox[{
+     RowBox[{"Para", " ", 
+      StyleBox[
+       RowBox[{"resolve", 
+        StyleBox["r",
+         FontFamily->"Times New Roman",
+         FontSize->16,
+         FontWeight->"Plain"]}]], " ", "la", " ", "ecuaci\[OAcute]n", " ", 
+      "g", 
+      RowBox[{"(", "x", ")"}]}], "=", 
+     RowBox[{
+     "0", " ", "utilizaremos", " ", "la", " ", "instrucci\[OAcute]n"}]}],
+    FontFamily->"Arial",
+    FontSize->16,
+    FontWeight->"Plain"], 
+   StyleBox["\[IndentingNewLine]",
+    FontFamily->"Arial",
+    FontSize->11,
+    FontWeight->"Plain"], 
+   StyleBox[
+    RowBox[{
+     RowBox[{
+      StyleBox["Solve",
+       FontFamily->"Arial"], 
+      StyleBox["[",
+       FontFamily->"Arial",
+       FontSlant->"Italic"], 
+      StyleBox[
+       RowBox[{"expr", ",", "vars"}],
+       FontFamily->"Arial",
+       FontSlant->"Italic"], 
+      StyleBox["]",
+       FontFamily->"Arial Narrow"]}], " ", "que", " ", "resuelve", " ", "el", 
+     " ", "sistema", " ", "de", " ", "ecuaciones", " ", "o", " ", 
+     "inecuaciones", " ", 
+     StyleBox["expr",
+      FontSlant->"Italic",
+      FontColor->GrayLevel[0]], "  ", "para", " ", "las", " ", "variables", 
+     " ", 
+     StyleBox["vars",
+      FontSlant->"Italic",
+      FontColor->GrayLevel[0]]}],
+    FontFamily->"Arial",
+    FontSize->16,
+    FontWeight->"Plain"], "\[IndentingNewLine]"}]}]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[0, 0.67, 0],
+ CellChangeTimes->{{3.782458827650916*^9, 
+  3.7824588305866737`*^9}},ExpressionUUID->"bef7ad7f-9e3f-460a-8de9-\
+27b9114b9fd0"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{
+  "EXPRESI\[CapitalOAcute]N", " ", "DE", " ", "ALGUNAS", " ", "FUNCIONES", 
+   " ", "CON", " ", "EL", " ", "MATHEMATICA", " "}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{{3.782548424600295*^9, 3.782548437176488*^9}, {
+  3.7825485205999117`*^9, 3.782548535886922*^9}, {3.814853304787572*^9, 
+  3.814853359997098*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"8c7cf6f5-50a3-4cc3-ae62-cf0079b5507f"],
+
+Cell[BoxData[{
+ StyleBox[
+  RowBox[{
+   RowBox[{"Exp", "[", "x", "]"}], "  ", "funci\[OAcute]n", " ", 
+   "exponencial"}],
+  FontFamily->"Arial",
+  FontSize->14,
+  FontWeight->"Plain"], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"Sqrt", "[", "x", "]"}], " ", "funci\[OAcute]n", " ", 
+   "ra\[IAcute]z", " ", "cuadrada"}],
+  FontFamily->"Arial",
+  FontSize->14,
+  FontWeight->"Plain"], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"IntegerPart", "[", "x", "]"}], " ", "funci\[OAcute]n", " ", 
+   "parte", " ", "entera"}],
+  FontFamily->"Arial",
+  FontSize->14,
+  FontWeight->"Plain"], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"Abs", "[", "x", "]"}], " ", "funci\[OAcute]n", " ", "valor", " ", 
+   "absoluto"}],
+  FontFamily->"Arial",
+  FontSize->14,
+  FontWeight->"Plain"]}], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[0, 0.67, 0],
+ CellChangeTimes->{{3.7825484982349586`*^9, 3.782548511991197*^9}, {
+  3.782548552223566*^9, 3.7825485688223543`*^9}, {3.782548682467181*^9, 
+  3.782548787074332*^9}, {3.782548853258442*^9, 3.78254885388936*^9}, {
+  3.782551382824224*^9, 
+  3.782551393289757*^9}},ExpressionUUID->"dd5faff7-d653-4483-8a01-\
+c10e317ba6d5"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{
+  "EVOLUCI\[CapitalOAcute]N", " ", "DE", " ", "UNA", " ", 
+   "GR\[CapitalAAcute]FICA", " ", "SEG\[CapitalUAcute]N", " ", "LOS", " ", 
+   "VALORES", " ", "DE", " ", "UN", " ", "PAR\[CapitalAAcute]METRO"}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{{3.782551865261698*^9, 3.782551865398732*^9}, {
+  3.782551954501853*^9, 3.782552002317892*^9}, {3.814853365124969*^9, 
+  3.81485341859249*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"b51a645f-89aa-4d45-bab2-2248bbb2c8a6"],
+
+Cell[TextData[{
+ StyleBox["\n",
+  FontSize->14],
+ Cell[BoxData[GridBox[{
+    {"", Cell[TextData[{
+      Cell[BoxData[
+       RowBox[{
+        ButtonBox["Manipulate",
+         BaseStyle->"Link",
+         ButtonData->"paclet:ref/Manipulate"], "[", 
+        RowBox[{
+         StyleBox["expr", "TI"], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           StyleBox["u", "TI"], ",", 
+           SubscriptBox[
+            StyleBox["u", "TI"], 
+            StyleBox["min", "TI"]], ",", 
+           SubscriptBox[
+            StyleBox["u", "TI"], 
+            StyleBox["max", "TI"]]}], "}"}]}], "]"}]], "InlineFormula",
+       ExpressionUUID->"b81dfd5a-44db-4db5-9ebb-9317c2b55f7f"],
+      " permite la manipulaci\[OAcute]n interactiva  de ",
+      StyleBox["expr",
+       FontSlant->"Italic"],
+      " seg\[UAcute]n los  valores de ",
+      StyleBox["u",
+       FontSlant->"Italic"],
+      ". "
+     }],ExpressionUUID->"2079ede5-d1bf-40cf-b8a6-dccfe8358f8f"]}
+   }]],
+  FontFamily->"Times",
+  FontSize->14,
+  GridBoxOptions->{
+  GridBoxBackground->{
+   "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {None, None, None, None, None, None, {None}}, 
+    "RowsIndexed" -> {}}},ExpressionUUID->
+  "decc093d-b79c-42da-b058-a93be7576318"]
+}], "Text",
+ CellFrame->3,
+ CellFrameColor->RGBColor[0, 0.67, 0],
+ CellChangeTimes->{{3.720775344372517*^9, 3.7207753593469*^9}, {
+  3.720775398323202*^9, 3.720775480311079*^9}, {3.7207755117696543`*^9, 
+  3.7207755428879337`*^9}, {3.7207756117908373`*^9, 3.720775740304501*^9}, {
+  3.782551931631892*^9, 3.782551942799652*^9}},
+ FontSize->14,ExpressionUUID->"e66a28b9-74b8-4b82-b5e1-30c7589490f1"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{"TABLA", " ", "DE", " ", "VALORES"}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{{3.783063508632249*^9, 3.783063509657896*^9}, {
+   3.7830635579221277`*^9, 3.783063566393156*^9}, {3.7882433792373533`*^9, 
+   3.788243382052599*^9}, 3.814853431335951*^9},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"21d0b81e-ad2d-415e-93af-c01a2b318279"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    ButtonBox["Table",
+     BaseStyle->"Link",
+     ButtonData->"paclet:ref/Table"], "[", 
+    RowBox[{
+     StyleBox["expr", "TI"], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       StyleBox["i", "TI"], ",", 
+       SubscriptBox[
+        StyleBox["i", "TI"], 
+        StyleBox["min", "TI"]], ",", 
+       SubscriptBox[
+        StyleBox["i", "TI"], 
+        StyleBox["max", "TI"]]}], "}"}]}], "]"}], " ", 
+   StyleBox["genera",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[" ",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox["una",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[" ",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox["tabla",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[" ",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox["evaluando",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[" ",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox["en",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[" ",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[
+    StyleBox["expr", "TI"],
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[" ",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[
+    StyleBox[
+     RowBox[{"l", 
+      StyleBox["os",
+       FontFamily->"Arial"]}]],
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[" ",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox["valores",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[" ",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox["de",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[
+    StyleBox[
+     RowBox[{
+      StyleBox[" ",
+       FontFamily->"Arial"], "  "}]],
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[
+    StyleBox["i", "TI",
+     FontFamily->"Times",
+     FontWeight->"Plain"],
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[
+    RowBox[{
+     StyleBox["  ",
+      FontWeight->"Plain",
+      FontColor->RGBColor[
+       0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+     " ", 
+     StyleBox[" ",
+      FontWeight->"Plain",
+      FontColor->RGBColor[
+       0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]]}]], 
+   
+   StyleBox["desde",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[" ",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[
+    SubscriptBox[
+     StyleBox["i", "TI",
+      FontFamily->"Times"], 
+     StyleBox["min", "TI"]],
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox["hasta",
+    FontFamily->"Arial",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[" ",
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]], 
+   StyleBox[
+    SubscriptBox[
+     StyleBox["i", "TI"], 
+     StyleBox["max", "TI"]],
+    FontColor->RGBColor[
+     0.03607232776379034, 0.005233844510566872, 0.038040741588464176`]]}],
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[0, 0.67, 0],
+ CellChangeTimes->{{3.783063600922168*^9, 3.783063691727325*^9}, {
+  3.783063735023953*^9, 3.783063766974299*^9}, {3.783063817934503*^9, 
+  3.78306381837399*^9}},ExpressionUUID->"b25cb1ce-768c-475e-b61b-\
+f7c015c18d71"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{
+  "EXPRESI\[CapitalOAcute]N", " ", "EN", " ", "FORMA", " ", "DECIMAL", " ", 
+   "DE", " ", "UN", " ", "RESULTADO"}],
+  FontFamily->"Arial Black",
+  FontSize->14,
+  FontWeight->"Plain"]], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[1, 0, 0],
+ CellChangeTimes->{{3.788243313109721*^9, 3.788243326469557*^9}, {
+  3.7882434389485817`*^9, 3.78824344569967*^9}, {3.788243553330998*^9, 
+  3.788243583960949*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"8127856f-a214-4d22-9857-e4d2124debc2"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Hay", " ", "varias", " ", 
+   RowBox[{"formas", ":", 
+    RowBox[{"poniendo", " ", "al", " ", 
+     RowBox[{"final", ":"}]}]}]}], "  ", "//", 
+  RowBox[{"N", "       ", "o", " ", "bien", "        ", 
+   RowBox[{
+    ButtonBox["N",
+     BaseStyle->"Link",
+     ButtonData->"paclet:ref/N"], "[", 
+    StyleBox["expr", "TI"], "]"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   ButtonBox["N",
+    BaseStyle->"Link",
+    ButtonData->"paclet:ref/N"], "[", 
+   RowBox[{
+    StyleBox["expr", "TI"], ",", 
+    StyleBox["n", "TI"]}], "]"}], "da", " ", "la", " ", "forma", " ", 
+  "decimal", " ", "de", " ", 
+  StyleBox["expr", "TI"], " ", "con", " ", 
+  StyleBox["n", "TI"], " ", "d\[IAcute]gitos", " ", "de", " ", 
+  "precisi\[OAcute]n"}]}], "Input",
+ CellFrame->1.5,
+ CellFrameColor->RGBColor[0, 0.67, 0],
+ CellChangeTimes->{{3.788243468252083*^9, 3.7882435235383253`*^9}, {
+  3.788243587631048*^9, 3.788243732543929*^9}, {3.7882437835989532`*^9, 
+  3.788243789237945*^9}},ExpressionUUID->"0a8d63b8-04d2-4520-bd0b-\
+a434599f8099"]
+},
+WindowSize->{1024.5, 513.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
+FrontEndVersion->"13.1 para Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"527b8169-c966-4e4f-a3ed-fa29f175251a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[400, 13, 492, 12, 51, "Input",ExpressionUUID->"e7bfa098-240b-42d8-8917-e30ffbc810f8"],
+Cell[895, 27, 419, 11, 47, "Input",ExpressionUUID->"ac80bab9-e60a-4bde-a22c-9bd73f7d55e0"],
+Cell[1317, 40, 9721, 327, 175, "Input",ExpressionUUID->"31346307-7321-4625-9519-54862776afc5"],
+Cell[11041, 369, 542, 12, 51, "Input",ExpressionUUID->"010fe51d-49cd-4439-ba9a-323cad17fe33"],
+Cell[11586, 383, 3545, 114, 145, "Input",ExpressionUUID->"625f4b27-d723-4a18-8a4f-113e9d199d3c"],
+Cell[15134, 499, 502, 14, 51, "Input",ExpressionUUID->"0d30824d-2b02-402e-92da-7d032cf9faa3"],
+Cell[15639, 515, 3255, 87, 312, "Input",ExpressionUUID->"e62e3fd3-7813-4bc6-b450-3f3557ea6e85"],
+Cell[18897, 604, 426, 11, 51, "Input",ExpressionUUID->"da76ed23-54cc-4b28-b424-505c73e5a329"],
+Cell[19326, 617, 3444, 104, 237, "Input",ExpressionUUID->"e98120bd-2a4c-43ba-8dc7-64da97398114"],
+Cell[22773, 723, 391, 10, 51, "Input",ExpressionUUID->"068f8811-9bae-4c98-968d-42bffd97e45c"],
+Cell[23167, 735, 661, 17, 84, "Input",ExpressionUUID->"e651fc53-3cd7-46eb-a80f-42fa5d7da0bf"],
+Cell[23831, 754, 437, 11, 51, "Input",ExpressionUUID->"87e532ed-3423-483b-816c-758c8c15c953"],
+Cell[24271, 767, 2031, 63, 97, "Input",ExpressionUUID->"ccc777f0-39d6-4223-b081-5fce8be8ecbd"],
+Cell[26305, 832, 467, 11, 51, "Input",ExpressionUUID->"2198d3e0-58e7-4f83-b8c3-565dff58740c"],
+Cell[26775, 845, 1615, 53, 123, "Input",ExpressionUUID->"bef7ad7f-9e3f-460a-8de9-27b9114b9fd0"],
+Cell[28393, 900, 558, 14, 51, "Input",ExpressionUUID->"8c7cf6f5-50a3-4cc3-ae62-cf0079b5507f"],
+Cell[28954, 916, 1203, 36, 168, "Input",ExpressionUUID->"dd5faff7-d653-4483-8a01-c10e317ba6d5"],
+Cell[30160, 954, 632, 15, 51, "Input",ExpressionUUID->"b51a645f-89aa-4d45-bab2-2248bbb2c8a6"],
+Cell[30795, 971, 1641, 46, 78, "Text",ExpressionUUID->"e66a28b9-74b8-4b82-b5e1-30c7589490f1"],
+Cell[32439, 1019, 492, 12, 51, "Input",ExpressionUUID->"21d0b81e-ad2d-415e-93af-c01a2b318279"],
+Cell[32934, 1033, 4858, 146, 51, "Input",ExpressionUUID->"b25cb1ce-768c-475e-b61b-f7c015c18d71"],
+Cell[37795, 1181, 545, 14, 51, "Input",ExpressionUUID->"8127856f-a214-4d22-9857-e4d2124debc2"],
+Cell[38343, 1197, 1066, 29, 86, "Input",ExpressionUUID->"0a8d63b8-04d2-4520-bd0b-a434599f8099"]
+}
+]
+*)
+
